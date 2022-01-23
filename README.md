@@ -9,7 +9,7 @@
 ## How to use?
 * When the application starts you will ask to share your location - if you accept then you will see the weather in your city
 * All the capitals city in the world are saved in this project - you can choose them from the list
-* After you choose city - press on the search button to load the results!
+* After you choose a city - press on the search button to load the results!
 
 # Enjoy!
 
