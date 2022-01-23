@@ -1,0 +1,31 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+.main-wrapper {
+	height: 100vh;
+	background-color: $light;
+	form, label {
+		background-color: $light;
+		color: $light;
+	}
+	h3, span {
+		color: $dark;
+	}
+	&.dark {
+		background-color: #012345;
+		h3, span {
+			color: $light;
+		}
+		form, label {
+			background-color: #012345;
+		}
+		.card {
+			background-color: $gray-600;
+			color: $light
+		}
+		.spinner {
+			color: $light
+		}
+	}
+}
